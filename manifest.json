@@ -208,7 +208,15 @@
 			"matches": [
 				"*://*.sendingstone.com/room/*"
 			],
+			"css": [
+				"libs/css/alertify.css",
+				"libs/css/alertify-themes/default.css",
+				"libs/css/alertify-themes/beyond20.css"
+			],
 			"js": [
+				"libs/alertify.min.js",
+				"libs/jquery-3.4.1.min.js",
+				"libs/lz-string.min.js",
 				"dist/sendingstone.js"
 			]
 		}

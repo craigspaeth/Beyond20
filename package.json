@@ -8,6 +8,7 @@
     "scripts": {
         "gulp": "gulp",
         "clean": "gulp clean",
+        "ship": "npm run build && cd build/chrome && zip -r ~/astral-projection/apps/room/public/beyond20-sendingstone-fork.zip . && cd ../..",
         "build": "run-s clean build:*",
         "build:firefox": "gulp build-firefox",
         "build:chrome": "gulp build-chrome",
